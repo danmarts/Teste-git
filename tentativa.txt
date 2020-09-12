@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main (int argc, char *argv)
+{
+int a;
+int b;
+int c;
+int m =4*a*c-b*b;
+if(m>=0){
+ printf("%d", -a/c);}
+else{
+printf("no possible");
+} 
+}
+ 
