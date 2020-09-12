@@ -1,15 +1,19 @@
 #include<stdio.h>
+#include<math.h>
 
 int main (int argc, char *argv)
 {
 int a;
 int b;
 int c;
+int delta;
 int m =4*a*c-b*b;
 if(m>=0){
- printf("%d", -a/c);}
+   delta=sqrt(m);
+   printf("%d",delta);
 else{
-printf("no possible");
+   delta=sqrt(-m);
+   printf("%d i",delta);
 } 
 }
  
